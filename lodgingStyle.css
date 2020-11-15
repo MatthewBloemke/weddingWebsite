@@ -1,0 +1,64 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(KUNSTLER.TTF);
+    text-decoration: underline;
+}
+@font-face {
+    font-family: mySecondFont;
+    src: url(KUNSTLER.TTF);
+}
+body { 
+    margin: 0;
+    background-color: #fbf5f5;
+}
+h1 {
+    color: #f1bdb8;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 1000%;
+    font-family: myFirstFont ;
+    text-decoration: underline;
+    margin-bottom: 5px;
+    background-color: #ced4bf;
+}
+nav {
+    color: #000000;
+    font-family: mySecondFont ;
+    background-color: #b5b9aa;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+  .block {
+      text-align: center;
+    width: 600px;
+}
+nav a {
+    color: #000000;
+    text-decoration: none;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+a:hover {
+    color:darkgray;
+}
+img {
+    background-color: #fbf5f5;
+    display: block;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin: 0px;
+}
+.block {
+    background-color: #fbf5f5;
+}
+p {
+    text-align: center;
+}
