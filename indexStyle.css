@@ -74,6 +74,10 @@ button {
 .dropdown {
     overflow: hidden;
 }
+.dropdownContent {
+    display: none;
+    
+}
 /*Desktop css*/
 
 @media screen and (min-device-width: 1024px) {
@@ -117,6 +121,10 @@ button {
         background-color: #b5b9aa;
         font-family: mySecondFont;
         font-size: 1em;
+    }
+    .dropdownContent a {
+        color: #000000;
+        display: block;
     }
     .dropdown:hover .dropdownContent {
         display: block;
