@@ -7,58 +7,107 @@
     font-family: mySecondFont;
     src: url(KUNSTLER.TTF);
 }
+@font-face {
+    font-family: pFont;
+    src: url();
+}
 body { 
-    margin: 0;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
     background-color: #fbf5f5;
 }
 h1 {
-    color: #f1bdb8;
+    
     margin-top: 0px;
-    text-align: center;
-    font-size: 1000%;
+    margin-bottom: 5px;
+    font-size: 10em;
     font-family: myFirstFont ;
     text-decoration: underline;
-    margin-bottom: 5px;
+    text-align: center;
+    color: #f1bdb8;
     background-color: #ced4bf;
 }
 nav {
-    color: #000000;
+    margin-bottom: 10px;
     font-family: mySecondFont ;
-    background-color: #b5b9aa;
     text-align: center;
-    font-size: 40px;
-    margin-bottom: 100px;
-}
-.row {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-  .block {
-      text-align: center;
-    width: 600px;
+    font-size: 3em;
+    background-color: #b5b9aa;
 }
 nav a {
     color: #000000;
     text-decoration: none;
-    padding-left: 70px;
-    padding-right: 70px;
 }
 
 a:hover {
     color:darkgray;
 }
-img {
-    background-color: #fbf5f5;
-    display: block;
-    padding-left: 0px;
-    padding-top: 0px;
-    margin: 0px;
-}
-.block {
-    background-color: #fbf5f5;
-}
 p {
     text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 42px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+main a {
+    text-decoration: none;
+    text-align: center;
+}
+h3 {
+    font-family: 'Times New Roman';
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 5%;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+}
+
+footer {
+    background-color: #b5b9aa;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.footer {
+    font-family: 'Times New Roman';
+    font-size: 1em;
+}
+/*Desktop css*/
+@media screen and (min-device-width: 1024px) {
+    nav a {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+/*Tablet css */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    html {
+        width: fit-content;
+    }
+    nav a {
+        margin-left: 37px;
+        margin-right: 37px;
+    }
+
+}
+/*mobile css*/
+@media screen and (max-device-width: 768px) {
+    html {
+        width: fit-content;
+    }
+    nav a {
+        margin-left: 36px;
+        margin-right: 36px;
+    }
+    h1 {
+        font-size: 6em;
+    }
 }
