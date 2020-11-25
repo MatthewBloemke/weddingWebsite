@@ -42,7 +42,9 @@ img {
     background-color: #fbf5f5;
     margin: 0px;
     border-radius: 10px;
-    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .row {
@@ -58,11 +60,6 @@ img {
     justify-content: center;
     text-align: center;
 }
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 #logo {
     width: 100%;
     max-width: 500px;
@@ -76,7 +73,7 @@ button {
 }
 .dropdownContent {
     display: none;
-    
+
 }
 /*Desktop css*/
 
@@ -103,7 +100,7 @@ button {
         font-size: 4em;
     }
     html {
-        width: fit-content;
+        width: auto;
     }
     nav a {
         display: none;

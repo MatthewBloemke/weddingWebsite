@@ -11,6 +11,7 @@ body {
     margin-top: 0%;
     margin-left: 0%;
     margin-right: 0%;
+    margin-bottom: 0%;
     background-color: #fbf5f5;
 }
 h1 {
@@ -25,7 +26,7 @@ h1 {
     background-color: #ced4bf;
 }
 nav {
-    margin-bottom: 100px;
+    margin-bottom: 5px;
     font-family: mySecondFont ;
     text-align: center;
     font-size: 3em;
@@ -41,6 +42,31 @@ a:hover {
 }
 p {
     text-align: center;
+}
+footer {
+    background-color: #b5b9aa;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.footer {
+    font-family: 'Times New Roman';
+    font-size: 1em;
+}
+button {
+    display: none;
+}
+.dropdown {
+    overflow: hidden;
+}
+.dropdownContent {
+    display: none;
+
+}
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 /*Desktop css*/
 
@@ -64,10 +90,27 @@ p {
 /*mobile css*/
 @media screen and (max-device-width: 768px) {
     html {
-        width: fit-content;
+        width: auto;
+    }
+    h1 {
+        font-size: 5em;
     }
     nav a {
-        margin-left: 36px;
-        margin-right: 36px;
+        display: none;
+    }
+    button {
+        display: initial;
+        border: none;
+        outline: none;
+        background-color: #b5b9aa;
+        font-family: mySecondFont;
+        font-size: 1em;
+    }
+    .dropdownContent a {
+        color: #000000;
+        display: block;
+    }
+    .dropdown:hover .dropdownContent {
+        display: block;
     }
 }
